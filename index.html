@@ -1,120 +1,28 @@
-<!DOCTYPE html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<html>
-    <head>
-        <style>
-            body{
-                background-image:url(https://i.picasion.com/pic90/10aeacb738f643570a229de41e8787d8.gif);
-                background-repeat: no-repeat;
-                background-attachment: fixed;
-                background-size: cover;
-            }
-        </style>
-    </head>
-    
-    <body>
-        <h1 style="font-size: 50px;color: gold;">HOTEL STARS<img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Golden_star-rotating.gif" alt="com" height="100" width="100"></h1> 
-        <p1 style="font-size: 20px;color: gold;">Rellene este formulario para reservar una habitación:</p1>
-        <form style="color: black;">
-            <table>
-            <tr>
-            <td> 
-             <fieldset>
-              <legend>Datos personales</legend><br>
-              <label for="fname">Nombre:</label><br>
-              <input type="text" rf name="fname"><br>
-              <label for="lname">Primer apellido:</label><br>
-              <input type="text"rf name="lname"><br>
-              <label for="lname">Segundo apellido:</label><br>
-              <input type="text"rf name="lname"><br>
-              <label for="lname">Género:</label><br>
-              <select id="genero" name="genero">
-                  <option value="men">Masculino</option>
-                  <option value="women">Femenino</option>
-                  <option value="another">Otro</option>
-                  <option value="No">Prefiero no contestar</option>
-              </select><br>
-              <label for="lname">Dirección:</label><br>
-              <input type="text" rf name="lname"><br>
-              <label for="datemax">Introduce tu fecha de nacimiento:</label><br>
-              <input type="date" id="datemax" name="datemax" max="2020-12-31"><br><br>
-             </fieldset>
-             <p>De: Alejandro Arroyo Herrera.</p>
-            </td>
-            <td>
-             <fieldset>
-                <legend>Datos identificativos</legend>
-                <label for="fname">DNI:</label><br>
-                <input type="text" rf name="fname"><br>
-                <label for="fname">Correo electrónico:</label><br>
-                <input type="text" rf name="fname"><br>
-                <label for="fname">Teléfono:</label><br>
-                <input type="text" rf name="fname"><br>
-             </fieldset>
-            </td>
-            <td>
-                <fieldset>
-                   <legend>Elija una habitación:</legend>
-                    <select name="hotel">
-                        <option selected value="0"> Elige una opción </option>
-                            <optgroup label="Bajo costo"> 
-                            <option value="1">*Habitación 1---50€/noche</option> 
-                            <option value="2">**Habitación 2---55€/noche</option> 
-                            <option value="3">*Habitación 3---51€/noche</option> 
-                            <option value="3">*Habitación 4---45€/noche</option>
-                            <option value="3">**Habitación 5---55€/noche</option>
-                            <option value="3">**Habitación 6---57€/noche</option>
-                        </optgroup> 
-                        <optgroup label="Medio costo"> 
-                            <option value="1">*Habitación 1---95€/noche</option> 
-                            <option value="2">*Habitación 2---97€/noche</option> 
-                            <option value="3">*Habitación 3---96€/noche</option> 
-                            <option value="3">**Habitación 4---100€/noche</option>
-                            <option value="3">**Habitación 5---102€/noche</option>
-                            <option value="3">*Habitación 6---98€/noche</option>
-                        </optgroup> 
-                        <optgroup label="Alto costo"> 
-                            <option value="1">*Habitación 1---120€/noche</option> 
-                            <option value="2">**Habitación 2---125€/noche</option> 
-                            <option value="3">**Habitación 3---133€/noche</option> 
-                            <option value="3">**Habitación 4---124€/noche</option>
-                            <option value="3">*Habitación 5---121€/noche</option>
-                            <option value="3">*Habitación 6---117€/noche</option>
-                        </optgroup> 
-                        <optgroup label="Suites"> 
-                            <option value="1">*Habitación 1---185€/noche</option> 
-                            <option value="2">**Habitación 2---198€/noche</option> 
-                            <option value="3">**Habitación 3---215€/noche</option>
-                        </optgroup> 
-                     </select>
-                     <p>*Una persona</p>
-                    <p>**Dos personas</p>
-                </fieldset>
-            </td>
-            <td>
-                <fieldset>
-                    <legend for="lname">Métodos de pago:</legend><br><br>
-                    <input type="radio" id="VISA" name="pago" value="male">
-                    <label for="VISA">VISA</label><br><br>
-                    <input type="radio" id="Mastercard" name="pago" value="female">
-                    <label for="Mastercard">Mastercard</label><br><br>
-                    <input type="radio" id="Paypal" name="pago" value="other">
-                    <label for="Paypal">Paypal</label><br><br>
-                    <input type="radio" id="Stars" name="pago" value="other">
-                    <label for="Stars">Tarjeta Stars</label><br><br>
-                    <input type="radio" id="Skrill" name="pago" value="other">
-                    <label for="Skrill">Skrill</label><br><br>
-                    <input type="radio" id="Llegada" name="pago" value="other">
-                    <label for="Llegada">Llegada al hotel</label><br><br>
-                </fieldset>
-            </td>
-            <td>
-                <fieldset>
-                  <input type="checkbox" name="vip" value="1">Suscribirse a "Stars VIP" para una mejor experiencia(10€/mes).
-                </fieldset>
-                <input type="reset" value="Limpiar"> <input type="submit" value="Enviar">
-            </td>
-            </tr>
-          </form>
-    </body>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="jumbotron">
+        <h1 class="display-3">git</h1>
+        <p class="lead">hola</p>
+        <hr class="my-2">
+        <p>More info</p>
+        <p class="lead">
+            <a class="btn btn-primary btn-lg" href="Jumbo action link" role="button">Jumbo action name</a>
+        </p>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
 </html>
