@@ -1,0 +1,38 @@
+.logo{
+    width: 500px;
+    height: 250px;
+    display: block;
+    margin: auto;
+}
+body{
+    background-image: url(https://us.123rf.com/450wm/migfoto/migfoto1609/migfoto160900010/63724976-vector-de-estilo-griego-con-columnas-ornamento-del-marco-patr%C3%B3n-de-color-marr%C3%B3n-sobre-un-fondo-de-color-be.jpg?ver=6);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+    
+}
+nav{
+    display: block;
+    float: left;
+}
+.inicio{
+    font-size: 60px;
+    -webkit-text-fill-color: transparent;
+    background-image: url(imagenes/preview-removebg-preview.png);
+}
+nav{
+    margin-left: 75px;
+    margin-top: 75px;
+}
+
+h2, p {
+    text-align: center;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+div {
+    margin-left: 300px;
+    margin-right: 300px;
+}
