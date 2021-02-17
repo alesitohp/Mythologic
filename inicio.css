@@ -32,11 +32,19 @@ h2, p {
     margin-right: 75px;
 }
 
-div {
+div,.personajes  {
     margin-left: 300px;
     margin-right: 300px;
 }
 
 .historia{
     margin-bottom: 200px;
+}
+
+.pespecial{
+    margin-right: 120px;
+}
+
+.lista{
+    margin-bottom: 20px;
 }
