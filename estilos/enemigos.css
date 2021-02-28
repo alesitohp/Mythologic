@@ -27,10 +27,27 @@ nav{
 }
 h2{
     text-align: center;
-    margin-right: 200px;
+    margin-right: 100px;
 }
 
 .Barra {
     float: right;
     margin-right: 75px;
+}
+
+.romano {
+    padding-left: 750px;
+}
+
+.ciclope {
+    padding-left: 750px;
+}
+
+.gigante {
+    padding-left: 750px;
+}
+
+.poseidon {
+    padding-left: 750px;
+    margin-bottom: 150px;
 }
